@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+head {
+	text-align: left;
+}
+
+body {
+  background-image: url("../natesImg/godOfWarBg2.jpg");
+  background-position: right bottom, left top;
+  background-repeat: repeat;
+  background-color: black;
+  color: #FF2328;
+  font-family: 'Roboto', serif;
+}
+
+nav, footer {
+		clear: both;
+		color: #ffffff;
+		background-color: black;
+		height: 30px;
+	    text-align: center;
+}
+
+nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li a {
+            color: #ffffff;
+        }
+        nav li a:hover, nav li a.current{ 
+            color: #000000;
+        }
+	
+
+
+img {
+  padding: 20px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+p {
+  border: 10px solid white;
+  position: relative;
+  width: 75%;
+  display: inline-block;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+}
+
+.center {
+	text-align: center;
+}
+
